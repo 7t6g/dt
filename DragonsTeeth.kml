@@ -18,139 +18,6 @@
 		<SimpleField type="int" name="t50_fid"><displayName>t50_fid</displayName>
 </SimpleField>
 	</Schema>
-	<StyleMap id="failed">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#failed2</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#failed1</styleUrl>
-		</Pair>
-	</StyleMap>
-	<Style id="failed0">
-	</Style>
-	<Style id="sn_campground">
-		<IconStyle>
-			<scale>1.2</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/shapes/campground.png</href>
-			</Icon>
-			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
-		</IconStyle>
-		<ListStyle>
-		</ListStyle>
-	</Style>
-	<StyleMap id="msn_campground">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#sn_campground0</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#sh_campground</styleUrl>
-		</Pair>
-	</StyleMap>
-	<StyleMap id="msn_ranger_station">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#sn_ranger_station0</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#sh_ranger_station</styleUrl>
-		</Pair>
-	</StyleMap>
-	<Style id="failed1">
-	</Style>
-	<StyleMap id="red">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#red0</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#red1</styleUrl>
-		</Pair>
-	</StyleMap>
-	<StyleMap id="m_ylw-pushpin">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#s_ylw-pushpin</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#s_ylw-pushpin_hl</styleUrl>
-		</Pair>
-	</StyleMap>
-	<StyleMap id="msn_campground0">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#sn_campground</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#sh_campground0</styleUrl>
-		</Pair>
-	</StyleMap>
-	<Style id="s_ylw-pushpin_hl">
-		<IconStyle>
-			<scale>1.3</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
-			</Icon>
-			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
-		</IconStyle>
-		<LineStyle>
-			<color>ff00ffff</color>
-		</LineStyle>
-	</Style>
-	<Style id="s_ylw-pushpin">
-		<IconStyle>
-			<scale>1.1</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
-			</Icon>
-			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
-		</IconStyle>
-		<LineStyle>
-			<color>ff00ffff</color>
-		</LineStyle>
-	</Style>
-	<Style id="sh_campground">
-		<IconStyle>
-			<scale>1.4</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/shapes/campground.png</href>
-			</Icon>
-			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
-		</IconStyle>
-		<ListStyle>
-		</ListStyle>
-	</Style>
-	<Style id="sh_campground0">
-		<IconStyle>
-			<scale>1.4</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/shapes/campground.png</href>
-			</Icon>
-			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
-		</IconStyle>
-		<ListStyle>
-		</ListStyle>
-	</Style>
-	<StyleMap id="msn_ranger_station0">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#sn_ranger_station</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#sh_ranger_station0</styleUrl>
-		</Pair>
-	</StyleMap>
-	<Style id="failed2">
-	</Style>
 	<Style id="nz-track-centrelines-topo-150kId0">
 		<IconStyle>
 			<color>ff993300</color>
@@ -221,22 +88,60 @@
 			<color>7f993300</color>
 		</PolyStyle>
 	</Style>
-	<Style id="sn_ranger_station">
+	<Style id="sn_campground">
 		<IconStyle>
 			<scale>1.2</scale>
 			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/shapes/ranger_station.png</href>
+				<href>http://maps.google.com/mapfiles/kml/shapes/campground.png</href>
 			</Icon>
 			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
 		</IconStyle>
 		<ListStyle>
 		</ListStyle>
 	</Style>
-	<Style id="sh_ranger_station">
+	<Style id="red">
+		<LineStyle>
+			<color>801400ff</color>
+			<width>4</width>
+		</LineStyle>
+	</Style>
+	<StyleMap id="msn_campground">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_campground</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_campground</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="m_ylw-pushpin">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#s_ylw-pushpin</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#s_ylw-pushpin_hl</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="s_ylw-pushpin">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff00ffff</color>
+		</LineStyle>
+	</Style>
+	<Style id="sh_campground">
 		<IconStyle>
 			<scale>1.4</scale>
 			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/shapes/ranger_station.png</href>
+				<href>http://maps.google.com/mapfiles/kml/shapes/campground.png</href>
 			</Icon>
 			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
 		</IconStyle>
@@ -249,131 +154,31 @@
 			<width>4</width>
 		</LineStyle>
 	</Style>
-	<Style id="red1">
+	<Style id="s_ylw-pushpin_hl">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
 		<LineStyle>
-			<color>801400ff</color>
-			<width>4</width>
+			<color>ff00ffff</color>
 		</LineStyle>
 	</Style>
-	<Style id="sh_ranger_station0">
-		<IconStyle>
-			<scale>1.4</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/shapes/ranger_station.png</href>
-			</Icon>
-			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
-		</IconStyle>
-		<ListStyle>
-		</ListStyle>
-	</Style>
-	<StyleMap id="failed3">
+	<StyleMap id="red1">
 		<Pair>
 			<key>normal</key>
-			<styleUrl>#failed0</styleUrl>
+			<styleUrl>#red0</styleUrl>
 		</Pair>
 		<Pair>
 			<key>highlight</key>
-			<styleUrl>#failed4</styleUrl>
+			<styleUrl>#red</styleUrl>
 		</Pair>
 	</StyleMap>
-	<Style id="sn_ranger_station0">
-		<IconStyle>
-			<scale>1.2</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/shapes/ranger_station.png</href>
-			</Icon>
-			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
-		</IconStyle>
-		<ListStyle>
-		</ListStyle>
-	</Style>
-	<Style id="sn_campground0">
-		<IconStyle>
-			<scale>1.2</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/shapes/campground.png</href>
-			</Icon>
-			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
-		</IconStyle>
-		<ListStyle>
-		</ListStyle>
-	</Style>
-	<Style id="failed4">
-	</Style>
 	<Folder>
 		<name>DragonsTeeth</name>
-		<Placemark>
-			<name>Green Saddle</name>
-			<styleUrl>#msn_campground0</styleUrl>
-			<Point>
-				<coordinates>172.55492,-40.91456,0</coordinates>
-			</Point>
-		</Placemark>
-		<Placemark>
-			<name>Trig site A58N</name>
-			<Point>
-				<coordinates>172.52129,-40.857413,0</coordinates>
-			</Point>
-		</Placemark>
-		<Placemark>
-			<name>Untitled Path</name>
-			<styleUrl>#m_ylw-pushpin</styleUrl>
-			<LineString>
-				<tessellate>1</tessellate>
-				<coordinates>
-					172.5215422226317,-40.85824803207861,0 172.5217217383867,-40.86661401513665,0 172.526750535744,-40.86698632428525,0 172.5291143838168,-40.86763429728632,0 172.5306951012159,-40.86741951137825,0 172.533098598256,-40.86798550939305,0 172.5381720222197,-40.86865011331427,0 172.540137488899,-40.86928563844687,0 172.5411383033203,-40.87041444046935,0 172.541598713991,-40.87177724073906,0 172.5417738233025,-40.87306941871916,0 172.5416390776146,-40.87447854499111,0 172.5413556131293,-40.87549170896771,0 172.5417906990872,-40.87676270815778,0 172.5428752490928,-40.87796347318519,0 172.5430132444194,-40.87909070881175,0 172.5431430289778,-40.8801845779768,0 172.5449933611608,-40.88152078330962,0 172.5459942196282,-40.88290236519834,0 172.544971721548,-40.88428185162474,0 172.5467592774295,-40.88785507407335,0 172.5470418424052,-40.88910624760732,0 172.5482078068391,-40.89072407045784,0 172.549474694408,-40.89190827039404,0 172.5498183815971,-40.89301182123629,0 172.5508995029706,-40.89437944687292,0 172.5520037830982,-40.89537893919586,0 172.5531051953601,-40.89688570027288,0 172.552943735588,-40.89856461614005,0 172.5526286981112,-40.90004194550843,0 172.5520020212257,-40.90203950780829,0 172.551684855719,-40.90306322162419,0 172.5510511643196,-40.90454851895932,0 172.5504319884468,-40.9051512264442,0 172.549760095892,-40.90800663472678,0 172.5508431398352,-40.90955212048124,0 172.5516483483762,-40.9109522301518,0 172.5531236983631,-40.91295741968156,0 
-				</coordinates>
-			</LineString>
-		</Placemark>
-		<Placemark>
-			<name>Lonely Lake Hut</name>
-			<styleUrl>#msn_ranger_station0</styleUrl>
-			<Point>
-				<coordinates>172.55786,-40.98248,0</coordinates>
-			</Point>
-		</Placemark>
-		<Placemark>
-			<name>Boulder Lake hut</name>
-			<styleUrl>#msn_ranger_station0</styleUrl>
-			<Point>
-				<coordinates>172.57885,-40.89996,0</coordinates>
-			</Point>
-		</Placemark>
-		<Placemark>
-			<name>Fenella hut</name>
-			<styleUrl>#msn_ranger_station0</styleUrl>
-			<Point>
-				<coordinates>172.5252,-41.0496,0</coordinates>
-			</Point>
-		</Placemark>
-		<Placemark>
-			<name>Balloon hut</name>
-			<styleUrl>#msn_ranger_station0</styleUrl>
-			<Point>
-				<coordinates>172.62246,-41.1691,0</coordinates>
-			</Point>
-		</Placemark>
-		<Placemark>
-			<name>Flora Saddle</name>
-			<styleUrl>#failed3</styleUrl>
-			<Point>
-				<coordinates>172.741,-41.19001,0</coordinates>
-			</Point>
-		</Placemark>
-		<Placemark>
-			<name>Sphinx Valley Cave</name>
-			<styleUrl>#failed</styleUrl>
-			<Point>
-				<coordinates>172.65601,-41.1897,0</coordinates>
-			</Point>
-		</Placemark>
-		<Placemark>
-			<name>Upper Gridiron Hut</name>
-			<styleUrl>#msn_ranger_station</styleUrl>
-			<Point>
-				<coordinates>172.69669,-41.170407,0</coordinates>
-			</Point>
-		</Placemark>
+		<open>1</open>
 		<Placemark>
 			<styleUrl>#nz-track-centrelines-topo-150kId0</styleUrl>
 			<ExtendedData>
@@ -747,7 +552,7 @@
 		<Placemark>
 			<name>dragons-teeth</name>
 			<description>Track no. 1</description>
-			<styleUrl>#red</styleUrl>
+			<styleUrl>#red1</styleUrl>
 			<LineString>
 				<extrude>1</extrude>
 				<tessellate>1</tessellate>
