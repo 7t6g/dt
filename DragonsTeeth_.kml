@@ -967,15 +967,6 @@
 			<width>4</width>
 		</LineStyle>
 	</Style>
-	<Style id="sh_campground0">
-		<IconStyle>
-			<scale>1.4</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/shapes/campground.png</href>
-			</Icon>
-			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
-		</IconStyle>
-	</Style>
 	<StyleMap id="failed2">
 		<Pair>
 			<key>normal</key>
@@ -999,6 +990,15 @@
 			<width>4</width>
 		</LineStyle>
 	</Style>
+	<Style id="sh_campground0">
+		<IconStyle>
+			<scale>1.4</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/campground.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
 	<StyleMap id="failed">
 		<Pair>
 			<key>normal</key>
@@ -1021,6 +1021,16 @@
 			<styleUrl>#nz-track-centrelines-topo-150kId005</styleUrl>
 		</Pair>
 	</StyleMap>
+	<StyleMap id="msn_campground1">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_campground0</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_campground0</styleUrl>
+		</Pair>
+	</StyleMap>
 	<Style id="red">
 		<LineStyle>
 			<color>801400ff</color>
@@ -1035,16 +1045,6 @@
 		<Pair>
 			<key>highlight</key>
 			<styleUrl>#nz-track-centrelines-topo-150kId0015</styleUrl>
-		</Pair>
-	</StyleMap>
-	<StyleMap id="msn_campground1">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#sn_campground0</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#sh_campground0</styleUrl>
 		</Pair>
 	</StyleMap>
 	<Style id="red10">
@@ -1201,6 +1201,15 @@
 		<PolyStyle>
 			<color>7f993300</color>
 		</PolyStyle>
+	</Style>
+	<Style id="sn_campground0">
+		<IconStyle>
+			<scale>1.2</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/campground.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
 	</Style>
 	<Style id="nz-track-centrelines-topo-150kId0017">
 		<IconStyle>
@@ -2100,15 +2109,6 @@
 			<color>7f993300</color>
 		</PolyStyle>
 	</Style>
-	<Style id="sn_campground0">
-		<IconStyle>
-			<scale>1.2</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/shapes/campground.png</href>
-			</Icon>
-			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
-		</IconStyle>
-	</Style>
 	<Style id="nz-track-centrelines-topo-150kId0029">
 		<IconStyle>
 			<color>ff993300</color>
@@ -2820,31 +2820,19 @@
 		<Placemark>
 			<name>Camp</name>
 			<LookAt>
-				<gx:TimeStamp><when>2016-02-24T03:10:15Z</when>
-</gx:TimeStamp>
-				<longitude>172.525447057156</longitude>
-				<latitude>-41.11768700813281</latitude>
+				<longitude>172.5348117785507</longitude>
+				<latitude>-41.0900453762187</latitude>
 				<altitude>0</altitude>
-				<heading>7.891433247913204e-011</heading>
-				<tilt>0</tilt>
-				<range>1708.893956681601</range>
+				<heading>-0.000234684421785916</heading>
+				<tilt>34.58875544149223</tilt>
+				<range>2057.511036940732</range>
 				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 			</LookAt>
 			<styleUrl>#msn_campground1</styleUrl>
 			<Point>
 				<gx:drawOrder>1</gx:drawOrder>
-				<coordinates>172.5231226637452,-41.11866953237688,0</coordinates>
+				<coordinates>172.5340887759436,-41.0978134374757,0</coordinates>
 			</Point>
-		</Placemark>
-		<Placemark>
-			<name>Untitled Path</name>
-			<styleUrl>#msn_ylw-pushpin0</styleUrl>
-			<LineString>
-				<tessellate>1</tessellate>
-				<coordinates>
-					172.5212508215846,-41.09582946907921,0 172.5222081958498,-41.09759485447278,0 172.5222358185022,-41.09915139487092,0 172.5211672866865,-41.10022069945412,0 172.5204400552736,-41.10147872009932,0 172.5200756150078,-41.10376970687081,0 172.5199211088233,-41.10562044008287,0 172.5208728335843,-41.1059590827375,0 172.521203773129,-41.10729333245556,0 172.52119780609,-41.10877689672395,0 172.5226776418363,-41.10954143319406,0 172.5233992005213,-41.11077713413483,0 172.5236775473726,-41.11202348264936,0 172.5234830233405,-41.11381714488137,0 172.5236113756786,-41.11492030055836,0 172.5233654426801,-41.11771163391713,0 
-				</coordinates>
-			</LineString>
 		</Placemark>
 		<Placemark>
 			<name>dragons-teeth</name>
