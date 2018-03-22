@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>Placemark.kml</name>
+	<Schema name="nz-property-titles-including-owners" id="nz-property-titles-including-ownersId">
+		<SimpleField type="string" name="status"><displayName>status</displayName>
+</SimpleField>
+		<SimpleField type="string" name="issue_date"><displayName>issue_date</displayName>
+</SimpleField>
+		<SimpleField type="string" name="title_no"><displayName>title_no</displayName>
+</SimpleField>
+		<SimpleField type="string" name="guarantee_status"><displayName>guarantee_status</displayName>
+</SimpleField>
+		<SimpleField type="string" name="owners"><displayName>owners</displayName>
+</SimpleField>
+		<SimpleField type="string" name="spatial_extents_shared"><displayName>spatial_extents_shared</displayName>
+</SimpleField>
+		<SimpleField type="string" name="land_district"><displayName>land_district</displayName>
+</SimpleField>
+		<SimpleField type="string" name="estate_description"><displayName>estate_description</displayName>
+</SimpleField>
+		<SimpleField type="string" name="type"><displayName>type</displayName>
+</SimpleField>
+		<SimpleField type="int" name="id"><displayName>id</displayName>
+</SimpleField>
+	</Schema>
+	<Style id="nz-property-titles-including-ownersId0">
+		<IconStyle>
+			<color>ff993300</color>
+			<scale>0.2</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pal2/icon18.png</href>
+			</Icon>
+		</IconStyle>
+		<BalloonStyle>
+			<text><![CDATA[<html>
+<head>
+    <style type="text/css">
+        table {
+            width: 100%;
+            border-width: 1px 0 1px 0;
+            border-style: solid;
+            margin-bottom: 10px;
+        }
+
+        th, td {
+            text-align: left;
+        }
+
+        th {
+            width:auto;
+        }
+    </style>
+</head>
+<body>
+    <base href="https://data.linz.govt.nz/" />
+
+    <h2>NZ Property Titles Including Owners</h2>
+
+    <table>
+        <tbody>
+            
+                <tr><th>$[nz-property-titles-including-owners/id/displayName]</th><td>$[nz-property-titles-including-owners/id]</th></tr>
+            
+                <tr><th>$[nz-property-titles-including-owners/title_no/displayName]</th><td>$[nz-property-titles-including-owners/title_no]</th></tr>
+            
+                <tr><th>$[nz-property-titles-including-owners/status/displayName]</th><td>$[nz-property-titles-including-owners/status]</th></tr>
+            
+                <tr><th>$[nz-property-titles-including-owners/type/displayName]</th><td>$[nz-property-titles-including-owners/type]</th></tr>
+            
+                <tr><th>$[nz-property-titles-including-owners/land_district/displayName]</th><td>$[nz-property-titles-including-owners/land_district]</th></tr>
+            
+                <tr><th>$[nz-property-titles-including-owners/issue_date/displayName]</th><td>$[nz-property-titles-including-owners/issue_date]</th></tr>
+            
+                <tr><th>$[nz-property-titles-including-owners/guarantee_status/displayName]</th><td>$[nz-property-titles-including-owners/guarantee_status]</th></tr>
+            
+                <tr><th>$[nz-property-titles-including-owners/estate_description/displayName]</th><td>$[nz-property-titles-including-owners/estate_description]</th></tr>
+            
+                <tr><th>$[nz-property-titles-including-owners/owners/displayName]</th><td>$[nz-property-titles-including-owners/owners]</th></tr>
+            
+                <tr><th>$[nz-property-titles-including-owners/spatial_extents_shared/displayName]</th><td>$[nz-property-titles-including-owners/spatial_extents_shared]</th></tr>
+            
+        </tbody>
+    </table>
+
+    <div>Source: <a href="https://data.linz.govt.nz/layer/50805-nz-property-titles-including-owners/" onclick="window.open('about:blank'); window.open(this.href); return false;">NZ Property Titles Including Owners</a></div>
+    
+        <div>License: <a href="https://data.linz.govt.nz/license/linz-licence-personal-data-21/" onclick="window.open('about:blank'); window.open(this.href); return false;">LINZ Licence for Personal Data 2.1</a></div>
+    
+    <div>Data last updated: 16 Mar 2018</div>
+    <div>Downloaded from <a href="https://data.linz.govt.nz/" onclick="window.open('about:blank'); window.open(this.href); return false;">LINZ Data Service</a> on 22 Mar 2018</div>
+</body>
+</html>]]></text>
+		</BalloonStyle>
+		<LineStyle>
+			<color>ff993300</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>7f993300</color>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="nz-property-titles-including-ownersId1">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#nz-property-titles-including-ownersId0</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#nz-property-titles-including-ownersId2</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="nz-property-titles-including-ownersId2">
+		<IconStyle>
+			<color>ff993300</color>
+			<scale>0.2</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pal2/icon18.png</href>
+			</Icon>
+		</IconStyle>
+		<BalloonStyle>
+			<text><![CDATA[<html>
+<head>
+    <style type="text/css">
+        table {
+            width: 100%;
+            border-width: 1px 0 1px 0;
+            border-style: solid;
+            margin-bottom: 10px;
+        }
+
+        th, td {
+            text-align: left;
+        }
+
+        th {
+            width:auto;
+        }
+    </style>
+</head>
+<body>
+    <base href="https://data.linz.govt.nz/" />
+
+    <h2>NZ Property Titles Including Owners</h2>
+
+    <table>
+        <tbody>
+            
+                <tr><th>$[nz-property-titles-including-owners/id/displayName]</th><td>$[nz-property-titles-including-owners/id]</th></tr>
+            
+                <tr><th>$[nz-property-titles-including-owners/title_no/displayName]</th><td>$[nz-property-titles-including-owners/title_no]</th></tr>
+            
+                <tr><th>$[nz-property-titles-including-owners/status/displayName]</th><td>$[nz-property-titles-including-owners/status]</th></tr>
+            
+                <tr><th>$[nz-property-titles-including-owners/type/displayName]</th><td>$[nz-property-titles-including-owners/type]</th></tr>
+            
+                <tr><th>$[nz-property-titles-including-owners/land_district/displayName]</th><td>$[nz-property-titles-including-owners/land_district]</th></tr>
+            
+                <tr><th>$[nz-property-titles-including-owners/issue_date/displayName]</th><td>$[nz-property-titles-including-owners/issue_date]</th></tr>
+            
+                <tr><th>$[nz-property-titles-including-owners/guarantee_status/displayName]</th><td>$[nz-property-titles-including-owners/guarantee_status]</th></tr>
+            
+                <tr><th>$[nz-property-titles-including-owners/estate_description/displayName]</th><td>$[nz-property-titles-including-owners/estate_description]</th></tr>
+            
+                <tr><th>$[nz-property-titles-including-owners/owners/displayName]</th><td>$[nz-property-titles-including-owners/owners]</th></tr>
+            
+                <tr><th>$[nz-property-titles-including-owners/spatial_extents_shared/displayName]</th><td>$[nz-property-titles-including-owners/spatial_extents_shared]</th></tr>
+            
+        </tbody>
+    </table>
+
+    <div>Source: <a href="https://data.linz.govt.nz/layer/50805-nz-property-titles-including-owners/" onclick="window.open('about:blank'); window.open(this.href); return false;">NZ Property Titles Including Owners</a></div>
+    
+        <div>License: <a href="https://data.linz.govt.nz/license/linz-licence-personal-data-21/" onclick="window.open('about:blank'); window.open(this.href); return false;">LINZ Licence for Personal Data 2.1</a></div>
+    
+    <div>Data last updated: 16 Mar 2018</div>
+    <div>Downloaded from <a href="https://data.linz.govt.nz/" onclick="window.open('about:blank'); window.open(this.href); return false;">LINZ Data Service</a> on 22 Mar 2018</div>
+</body>
+</html>]]></text>
+		</BalloonStyle>
+		<LineStyle>
+			<color>ff993300</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>7f993300</color>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Placemark>
+		<open>1</open>
+		<styleUrl>#nz-property-titles-including-ownersId1</styleUrl>
+		<ExtendedData>
+			<SchemaData schemaUrl="#nz-property-titles-including-ownersId">
+				<SimpleData name="status">LIVE</SimpleData>
+				<SimpleData name="issue_date">1982-11-12 00:00:00</SimpleData>
+				<SimpleData name="title_no">WS5A/794</SimpleData>
+				<SimpleData name="guarantee_status">Guarantee</SimpleData>
+				<SimpleData name="owners">Rangitoto Eco Adventures Limited</SimpleData>
+				<SimpleData name="spatial_extents_shared">True</SimpleData>
+				<SimpleData name="land_district">Westland</SimpleData>
+				<SimpleData name="estate_description">Fee Simple, 3/14, Rural Section 2105, 2,023,428 m2</SimpleData>
+				<SimpleData name="type">Freehold</SimpleData>
+				<SimpleData name="id">1178353</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Polygon>
+			<outerBoundaryIs>
+				<LinearRing>
+					<tessellate>1</tessellate>
+					<coordinates>
+						170.787601,-43.016308,0 170.787845,-43.016079,0 170.788038,-43.015896,0 170.787548,-43.015736,0 170.787618,-43.015615,0 170.787674,-43.01552,0 170.787429,-43.015275,0 170.787965,-43.015065,0 170.788056,-43.015029,0 170.788343,-43.014314,0 170.78835,-43.014298,0 170.788534,-43.012963,0 170.789268,-43.013001,0 170.7894,-43.012479,0 170.788708,-43.01237,0 170.788922,-43.011642,0 170.789531,-43.011317,0 170.78938,-43.011174,0 170.788701,-43.011536,0 170.78829,-43.012935,0 170.788106,-43.014263,0 170.787849,-43.014905,0 170.787061,-43.015214,0 170.787392,-43.015544,0 170.787225,-43.015829,0 170.78765,-43.015968,0 170.787398,-43.016205,0 170.787277,-43.016231,0 170.771144,-43.012415,0 170.783118,-43.003397,0 170.795297,-43.006285,0 170.800385,-43.007492,0 170.79516,-43.014176,0 170.792574,-43.017484,0 170.787601,-43.016308,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+</Document>
+</kml>
